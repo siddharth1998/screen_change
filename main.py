@@ -31,7 +31,7 @@ def capture_screen():
     return cv2.cvtColor(np.array(screenshot), cv2.COLOR_RGB2GRAY)
 
 
-def monitor_screen(threshold=30, interval=2, notify_via="slack"):
+def monitor_screen(threshold=30, interval=int(config["SYS"]["INTERVAL"]), notify_via="slack"):
     time.sleep(interval)
     temp_screen = capture_screen()
     curr_screen = capture_screen()
