@@ -12,8 +12,8 @@ A Python program for monitoring even the smallest screen changes, ideal for syst
 
 1. Clone this repository:
 ```bash
-git clone <your-repository-url>
-cd <repository-name>
+git clone https://github.com/siddharth1998/screen_change.git
+cd screen_change
 ```
 
 2. Create a virtual environment:
